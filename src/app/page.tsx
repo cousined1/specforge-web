@@ -16,7 +16,7 @@ export default function HomePage() {
         <h1 className="text-4xl font-extrabold tracking-tight text-white md:text-6xl">
           Software provenance and governance for modern engineering teams
         </h1>
-        <p className="mx-auto mt-6 max-w-2xl text-lg leading-relaxed text-muted md:text-xl">
+        <p className="mx-auto mt-8 max-w-2xl text-lg leading-loose text-muted md:text-xl md:leading-loose">
           Document what AI generated. Map open-source exposure. Enforce policy before it ships. SpecGetter gives teams visibility into the software supply chain so you can ship with confidence.
         </p>
         <div className="mt-8 flex flex-col items-center justify-center gap-4 sm:flex-row">
