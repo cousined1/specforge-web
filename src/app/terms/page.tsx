@@ -22,7 +22,7 @@ export default function TermsPage() {
 
         <h2>1. Service description</h2>
         <p>
-          SpecForge is a software provenance and governance platform that helps organizations track AI-generated code, inventory open-source dependencies, and enforce internal policy rules. The Service is provided on an “as is” and “as available” basis.
+          SpecGetter is a software provenance and governance platform that helps organizations track AI-generated code, inventory open-source dependencies, and enforce internal policy rules. The Service is provided on an “as is” and “as available” basis.
         </p>
 
         <h2>2. Eligibility</h2>

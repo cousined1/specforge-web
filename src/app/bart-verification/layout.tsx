@@ -2,7 +2,7 @@ import { buildMeta } from '@/components/seo/PageMeta';
 
 export const metadata = buildMeta({
   title: 'BART verification (preview)',
-  description: 'Preview of the SpecForge BART verification checkpoints. Not yet available.',
+  description: 'Preview of the SpecGetter BART verification checkpoints. Not yet available.',
   canonical: '/bart-verification/',
   noindex: true,
 });

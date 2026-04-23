@@ -122,7 +122,7 @@ export default function PricingClient() {
             answer="Contact us to discuss a custom plan that fits your scale. Enterprise plans include unlimited team members and repository coverage."
           />
           <FaqItem
-            question="Is SpecForge SOC 2 compliant?"
+            question="Is SpecGetter SOC 2 compliant?"
             answer="We are working toward SOC 2 Type II compliance. We do not claim compliance readiness or guarantee audit outcomes."
           />
           <FaqItem

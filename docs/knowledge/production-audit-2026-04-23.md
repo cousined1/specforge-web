@@ -1,4 +1,4 @@
-# Knowledge Artifact: SpecForge Production Readiness Audit
+# Knowledge Artifact: SpecGetter Production Readiness Audit
 
 **Phase:** Full 10-Phase Audit Completed
 **Date:** April 23, 2026
@@ -28,7 +28,7 @@ metadata. It composes titles, canonicals, OG, and Twitter cards. 12 unit tests v
 `CookieConsentContext.tsx` → `CookieConsentBanner.tsx` → `CookieSettings.tsx`
 - Context provider wraps entire app in root layout
 - Defaults all non-essential categories to `false`
-- localStorage key: `specforge_cookie_consent`
+- localStorage key: `SpecGetter_cookie_consent`
 
 ### 4. Contact Form Security
 - Input sanitization strips `<>"'&`

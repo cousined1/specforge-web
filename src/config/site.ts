@@ -4,8 +4,8 @@ export const company = {
   fullIdentity: 'Developer312, a subsidiary of NIGHT LITE USA LLC',
   email: 'hello@developer312.com',
   phone: '(510) 401-1225',
-  productName: 'SpecForge',
-  baseUrl: 'https://specforge.io',
+  productName: 'SpecGetter',
+  baseUrl: 'https://specgetter-web-production.up.railway.app',
 };
 
 export const stripe = {
@@ -82,9 +82,9 @@ export const pricing = {
 };
 
 export const metaDefaults = {
-  titleTemplate: '%s | SpecForge',
-  defaultTitle: 'SpecForge — Software Provenance and Governance Platform',
-  defaultDescription: 'SpecForge helps organizations document what AI generated, what open-source components are present, and whether shipped code aligns with internal governance expectations.',
+  titleTemplate: '%s | SpecGetter',
+  defaultTitle: 'SpecGetter — Software Provenance and Governance Platform',
+  defaultDescription: 'SpecGetter helps organizations document what AI generated, what open-source components are present, and whether shipped code aligns with internal governance expectations.',
   image: '/og-image.png',
 };
 

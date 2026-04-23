@@ -4,18 +4,18 @@
 
 | Page | Title Tag | Meta Description | Canonical | H1 | Intent | Primary Keyword | Secondary Keywords |
 |------|-----------|-----------------|-----------|----|--------|-----------------|--------------------|
-| Homepage | Software Provenance & Governance \| SpecForge | SpecForge helps engineering teams track AI-generated code, map OSS dependencies, and enforce governance policies across the software supply chain. | / | Software provenance and governance for modern engineering teams | Commercial + informational | software provenance | software governance, AI code tracking, OSS risk |
-| Product | Platform Overview \| SpecForge | SpecForge is a provenance and governance platform that helps teams track AI-generated code, map OSS dependencies, and enforce CI/CD policy rules. | /product/ | Platform Overview | Commercial | software governance platform | AI provenance, OSS inventory, policy engine |
-| Pricing | Pricing \| SpecForge | SpecForge pricing plans: Starter, Team, and Enterprise. Transparent billing. Monthly or annual options. | /pricing/ | Pricing | Transactional | software governance pricing | SaaS pricing, enterprise billing, transparent pricing |
-| FinTech | FinTech Solutions \| SpecForge | SpecForge helps FinTech companies maintain auditability, change control, and vendor scrutiny across their software supply chain. | /solutions/fintech/ | FinTech | Commercial | fintech software governance | auditability, change control, vendor scrutiny |
-| Healthcare | Healthcare Solutions \| SpecForge | SpecForge helps healthcare technology teams maintain operational trust, change accountability, and governance rigor. | /solutions/healthcare/ | Healthcare | Commercial | healthcare software governance | operational trust, change accountability, governance rigor |
-| Enterprise SaaS | Enterprise SaaS Solutions \| SpecForge | SpecForge helps enterprise SaaS companies maintain customer trust, SOC2-adjacent governance, and AI change visibility. | /solutions/enterprise-saas/ | Enterprise SaaS | Commercial | enterprise saas governance | customer trust, SOC2 readiness, AI change visibility |
-| Compliance | Compliance & Governance Overview \| SpecForge | SpecForge helps organizations govern software change with policy enforcement, audit trails, and OSS risk mapping. | /compliance/ | Compliance & governance | Informational | software compliance governance | policy enforcement, audit trails, OSS risk mapping |
-| AI Code Provenance | AI Code Provenance Explainer \| SpecForge | Understand AI code provenance and why engineering teams need to track what AI generated, when, and with what model. | /ai-code-provenance/ | AI code provenance | Informational | AI code provenance | AI-generated code tracking, model attribution, code accountability |
-| OSS Supply Chain | OSS Supply Chain Risk Explainer \| SpecForge | Map open-source dependencies, detect license conflicts, and flag security risks before they reach production. | /oss-supply-chain/ | OSS supply chain risk | Informational | OSS supply chain risk | open source dependencies, license conflicts, security risks |
-| Terms | Terms of Service \| SpecForge | Terms of Service for SpecForge. Operated by Developer312, a subsidiary of NIGHT LITE USA LLC. | /terms/ | Terms of Service | Navigational | terms of service | legal terms, service agreement, user agreement |
-| Privacy | Privacy Policy \| SpecForge | Privacy Policy for SpecForge. Operated by Developer312, a subsidiary of NIGHT LITE USA LLC. | /privacy/ | Privacy Policy | Navigational | privacy policy | data privacy, personal information protection |
-| Contact | Contact \| SpecForge | Contact SpecForge by Developer312, a subsidiary of NIGHT LITE USA LLC. Email hello@developer312.com or call (510) 401-1225. | /contact/ | Contact | Navigational | contact specforge | developer312 contact, specforge support |
+| Homepage | Software Provenance & Governance \| SpecGetter | SpecGetter helps engineering teams track AI-generated code, map OSS dependencies, and enforce governance policies across the software supply chain. | / | Software provenance and governance for modern engineering teams | Commercial + informational | software provenance | software governance, AI code tracking, OSS risk |
+| Product | Platform Overview \| SpecGetter | SpecGetter is a provenance and governance platform that helps teams track AI-generated code, map OSS dependencies, and enforce CI/CD policy rules. | /product/ | Platform Overview | Commercial | software governance platform | AI provenance, OSS inventory, policy engine |
+| Pricing | Pricing \| SpecGetter | SpecGetter pricing plans: Starter, Team, and Enterprise. Transparent billing. Monthly or annual options. | /pricing/ | Pricing | Transactional | software governance pricing | SaaS pricing, enterprise billing, transparent pricing |
+| FinTech | FinTech Solutions \| SpecGetter | SpecGetter helps FinTech companies maintain auditability, change control, and vendor scrutiny across their software supply chain. | /solutions/fintech/ | FinTech | Commercial | fintech software governance | auditability, change control, vendor scrutiny |
+| Healthcare | Healthcare Solutions \| SpecGetter | SpecGetter helps healthcare technology teams maintain operational trust, change accountability, and governance rigor. | /solutions/healthcare/ | Healthcare | Commercial | healthcare software governance | operational trust, change accountability, governance rigor |
+| Enterprise SaaS | Enterprise SaaS Solutions \| SpecGetter | SpecGetter helps enterprise SaaS companies maintain customer trust, SOC2-adjacent governance, and AI change visibility. | /solutions/enterprise-saas/ | Enterprise SaaS | Commercial | enterprise saas governance | customer trust, SOC2 readiness, AI change visibility |
+| Compliance | Compliance & Governance Overview \| SpecGetter | SpecGetter helps organizations govern software change with policy enforcement, audit trails, and OSS risk mapping. | /compliance/ | Compliance & governance | Informational | software compliance governance | policy enforcement, audit trails, OSS risk mapping |
+| AI Code Provenance | AI Code Provenance Explainer \| SpecGetter | Understand AI code provenance and why engineering teams need to track what AI generated, when, and with what model. | /ai-code-provenance/ | AI code provenance | Informational | AI code provenance | AI-generated code tracking, model attribution, code accountability |
+| OSS Supply Chain | OSS Supply Chain Risk Explainer \| SpecGetter | Map open-source dependencies, detect license conflicts, and flag security risks before they reach production. | /oss-supply-chain/ | OSS supply chain risk | Informational | OSS supply chain risk | open source dependencies, license conflicts, security risks |
+| Terms | Terms of Service \| SpecGetter | Terms of Service for SpecGetter. Operated by Developer312, a subsidiary of NIGHT LITE USA LLC. | /terms/ | Terms of Service | Navigational | terms of service | legal terms, service agreement, user agreement |
+| Privacy | Privacy Policy \| SpecGetter | Privacy Policy for SpecGetter. Operated by Developer312, a subsidiary of NIGHT LITE USA LLC. | /privacy/ | Privacy Policy | Navigational | privacy policy | data privacy, personal information protection |
+| Contact | Contact \| SpecGetter | Contact SpecGetter by Developer312, a subsidiary of NIGHT LITE USA LLC. Email hello@developer312.com or call (510) 401-1225. | /contact/ | Contact | Navigational | contact SpecGetter | developer312 contact, SpecGetter support |
 
 ## Keyword to Page Map
 
@@ -81,7 +81,7 @@
 ### Title Tags
 - [x] All 12 public pages have unique titles
 - [x] No duplicate title templates
-- [x] Title format: "{Page Title} \| SpecForge"
+- [x] Title format: "{Page Title} \| SpecGetter"
 
 ### Meta Descriptions
 - [x] All 12 public pages have unique descriptions

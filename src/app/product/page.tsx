@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export const metadata = buildMeta({
   title: 'Platform Overview',
-  description: 'SpecForge is a provenance and governance platform that helps teams track AI-generated code, map OSS dependencies, and enforce CI/CD policy rules.',
+  description: 'SpecGetter is a provenance and governance platform that helps teams track AI-generated code, map OSS dependencies, and enforce CI/CD policy rules.',
   canonical: '/product/',
 });
 
@@ -13,7 +13,7 @@ export default function ProductPage() {
       <section className="text-center">
         <h1 className="text-4xl font-extrabold tracking-tight text-white md:text-5xl">Platform Overview</h1>
         <p className="mx-auto mt-6 max-w-2xl text-lg text-muted">
-          SpecForge gives engineering teams a single source of truth for what is in their software, where it came from, and whether it meets internal governance expectations.
+          SpecGetter gives engineering teams a single source of truth for what is in their software, where it came from, and whether it meets internal governance expectations.
         </p>
       </section>
 

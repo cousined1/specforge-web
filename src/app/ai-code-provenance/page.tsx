@@ -20,8 +20,8 @@ export default function AICodeProvenancePage() {
       <section className="mt-12 grid gap-8 md:grid-cols-2">
         <Feature title="What is AI code provenance?" body="It is the practice of attributing code changes to a specific model, prompt, and human reviewer. Provenance creates accountability in a world where code can be written by machines." />
         <Feature title="Why it matters" body="Organizations need to know what AI is doing in their codebase. Provenance supports security reviews, IP management, and governance workflows that assume human authorship by default." />
-        <Feature title="How SpecForge tracks it" body="SpecForge tags AI-generated diffs by model, prompt, and approver. It links every generated change to a decision chain so teams can review, audit, and govern AI usage." />
-        <Feature title="Getting started" body="Connect your Git provider, configure a policy rule, and enable AI provenance tagging. SpecForge begins classifying diffs automatically as teams commit and merge." />
+        <Feature title="How SpecGetter tracks it" body="SpecGetter tags AI-generated diffs by model, prompt, and approver. It links every generated change to a decision chain so teams can review, audit, and govern AI usage." />
+        <Feature title="Getting started" body="Connect your Git provider, configure a policy rule, and enable AI provenance tagging. SpecGetter begins classifying diffs automatically as teams commit and merge." />
       </section>
 
       <section className="mt-16">

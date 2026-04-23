@@ -2,7 +2,7 @@ import { buildMeta } from '@/components/seo/PageMeta';
 
 export const metadata = buildMeta({
   title: 'Log in',
-  description: 'Log in to your SpecForge account.',
+  description: 'Log in to your SpecGetter account.',
   canonical: '/login/',
   noindex: true,
 });

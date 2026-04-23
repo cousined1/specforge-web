@@ -5,7 +5,7 @@ import JsonLd from '@/components/seo/JsonLd';
 
 export const metadata = buildMeta({
   title: 'Contact',
-  description: 'Contact SpecForge by Developer312, a subsidiary of NIGHT LITE USA LLC. Email hello@developer312.com or call (510) 401-1225.',
+  description: 'Contact SpecGetter by Developer312, a subsidiary of NIGHT LITE USA LLC. Email hello@developer312.com or call (510) 401-1225.',
   canonical: '/contact/',
 });
 
@@ -13,7 +13,7 @@ export default function ContactPage() {
   const contactSchema = {
     '@context': 'https://schema.org',
     '@type': 'ContactPage',
-    name: 'Contact SpecForge',
+    name: 'Contact SpecGetter',
     url: `${company.baseUrl}/contact/`,
     mainEntity: {
       '@type': 'Organization',

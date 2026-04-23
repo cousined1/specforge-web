@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export const metadata = buildMeta({
   title: 'Healthcare Solutions',
-  description: 'SpecForge helps healthcare technology teams maintain operational trust, change accountability, and governance rigor.',
+  description: 'SpecGetter helps healthcare technology teams maintain operational trust, change accountability, and governance rigor.',
   canonical: '/solutions/healthcare/',
 });
 
@@ -13,7 +13,7 @@ export default function HealthcarePage() {
       <section>
         <h1 className="text-4xl font-extrabold tracking-tight text-white md:text-5xl">Healthcare</h1>
         <p className="mt-6 max-w-2xl text-lg text-muted">
-          Healthcare technology demands accountability at every layer. SpecForge helps teams track AI-generated logic, map dependencies, and enforce governance controls that support risk management and vendor assessments.
+          Healthcare technology demands accountability at every layer. SpecGetter helps teams track AI-generated logic, map dependencies, and enforce governance controls that support risk management and vendor assessments.
         </p>
       </section>
 

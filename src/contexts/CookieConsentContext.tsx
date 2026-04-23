@@ -30,7 +30,7 @@ const defaultConsent: CookieConsent = {
   preferences: false,
 };
 
-const STORAGE_KEY = 'specforge_cookie_consent';
+const STORAGE_KEY = 'SpecGetter_cookie_consent';
 
 function getStoredConsent(): CookieConsentState | null {
   if (typeof window === 'undefined') return null;

@@ -5,7 +5,7 @@ import Link from 'next/link';
 export const metadata = buildMeta({
   title: 'Software Provenance & Governance',
   description:
-    'SpecForge helps engineering teams track AI-generated code, map open-source components, and enforce governance policies across the software supply chain.',
+    'SpecGetter helps engineering teams track AI-generated code, map open-source components, and enforce governance policies across the software supply chain.',
   canonical: '/',
 });
 
@@ -17,7 +17,7 @@ export default function HomePage() {
           Software provenance and governance for modern engineering teams
         </h1>
         <p className="mx-auto mt-6 max-w-2xl text-lg leading-relaxed text-muted md:text-xl">
-          Document what AI generated. Map open-source exposure. Enforce policy before it ships. SpecForge gives teams visibility into the software supply chain so you can ship with confidence.
+          Document what AI generated. Map open-source exposure. Enforce policy before it ships. SpecGetter gives teams visibility into the software supply chain so you can ship with confidence.
         </p>
         <div className="mt-8 flex flex-col items-center justify-center gap-4 sm:flex-row">
           <Link
@@ -38,7 +38,7 @@ export default function HomePage() {
       <section className="mt-20 grid gap-8 md:grid-cols-3">
         <FeatureCard
           title="Provenance tracking"
-          body="Know which changes came from AI assistance versus human authors. SpecForge tags AI-generated diffs and links them back to prompts, models, and approval chains."
+          body="Know which changes came from AI assistance versus human authors. SpecGetter tags AI-generated diffs and links them back to prompts, models, and approval chains."
         />
         <FeatureCard
           title="OSS risk mapping"
@@ -56,7 +56,7 @@ export default function HomePage() {
             Built for teams that ship fast—and need to ship responsibly.
           </h2>
           <p className="mt-4 max-w-3xl text-muted">
-            SpecForge integrates into Git-based workflows and CI/CD pipelines. It surfaces provenance at every commit, validates governance rules at pull request time, and creates an auditable record of what reached production and why.
+            SpecGetter integrates into Git-based workflows and CI/CD pipelines. It surfaces provenance at every commit, validates governance rules at pull request time, and creates an auditable record of what reached production and why.
           </p>
           <div className="mt-6 flex flex-col gap-3 sm:flex-row sm:items-center">
             <Link href="/ai-code-provenance/" className="text-primary hover:underline">Learn about AI code provenance →</Link>

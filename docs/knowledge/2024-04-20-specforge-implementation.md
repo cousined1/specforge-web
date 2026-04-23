@@ -1,5 +1,5 @@
 ---
-title: "SpecForge public site + SaaS shell implementation notes"
+title: "SpecGetter public site + SaaS shell implementation notes"
 type: implementation
 created: 2026-04-20
 related_spec: master-prompt.txt
@@ -7,7 +7,7 @@ confidence: HIGH
 stale_after: 30d
 ---
 
-# SpecForge Implementation Notes
+# SpecGetter Implementation Notes
 
 ## Key decisions
 

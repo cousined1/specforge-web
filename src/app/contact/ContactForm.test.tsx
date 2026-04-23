@@ -21,7 +21,7 @@ import ContactForm from './ContactForm';
 async function fillValid(user: ReturnType<typeof userEvent.setup>) {
   await user.type(screen.getByLabelText(/^Name/), 'Alice Example');
   await user.type(screen.getByLabelText(/^Email/), 'alice@example.com');
-  await user.type(screen.getByLabelText(/^Message/), 'Hello SpecForge team.');
+  await user.type(screen.getByLabelText(/^Message/), 'Hello SpecGetter team.');
 }
 
 describe('ContactForm', () => {

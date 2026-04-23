@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export const metadata = buildMeta({
   title: 'FinTech Solutions',
-  description: 'SpecForge helps FinTech companies maintain auditability, change control, and vendor scrutiny across their software supply chain.',
+  description: 'SpecGetter helps FinTech companies maintain auditability, change control, and vendor scrutiny across their software supply chain.',
   canonical: '/solutions/fintech/',
 });
 
@@ -13,7 +13,7 @@ export default function FinTechPage() {
       <section>
         <h1 className="text-4xl font-extrabold tracking-tight text-white md:text-5xl">FinTech</h1>
         <p className="mt-6 max-w-2xl text-lg text-muted">
-          FinTech moves fast—but regulators expect proof. SpecForge helps FinTech teams maintain audit trails, enforce change control, and document what shipped and why.
+          FinTech moves fast—but regulators expect proof. SpecGetter helps FinTech teams maintain audit trails, enforce change control, and document what shipped and why.
         </p>
       </section>
 

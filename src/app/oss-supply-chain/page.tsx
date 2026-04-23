@@ -13,7 +13,7 @@ export default function OSSSupplyChainPage() {
       <section>
         <h1 className="text-4xl font-extrabold tracking-tight text-white md:text-5xl">OSS supply chain risk</h1>
         <p className="mt-6 max-w-2xl text-lg text-muted">
-          Modern software is built on open-source foundations. That creates speed—and risk. SpecForge helps teams see what they depend on, what those dependencies depend on, and whether any of it introduces liability.
+          Modern software is built on open-source foundations. That creates speed—and risk. SpecGetter helps teams see what they depend on, what those dependencies depend on, and whether any of it introduces liability.
         </p>
       </section>
 

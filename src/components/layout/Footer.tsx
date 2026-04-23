@@ -55,7 +55,7 @@ export default function Footer() {
             </div>
           </div>
           <p className="mt-3 text-xs text-muted">
-            Trust starts with provenance. SpecForge helps teams understand and govern their software supply chain. Nothing on this site constitutes legal advice or a guarantee of compliance readiness.
+            Trust starts with provenance. SpecGetter helps teams understand and govern their software supply chain. Nothing on this site constitutes legal advice or a guarantee of compliance readiness.
           </p>
         </div>
       </div>

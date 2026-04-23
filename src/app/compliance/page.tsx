@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export const metadata = buildMeta({
   title: 'Compliance & Governance Overview',
-  description: 'SpecForge helps organizations govern software change with policy enforcement, audit trails, and OSS risk mapping.',
+  description: 'SpecGetter helps organizations govern software change with policy enforcement, audit trails, and OSS risk mapping.',
   canonical: '/compliance/',
 });
 
@@ -13,7 +13,7 @@ export default function CompliancePage() {
       <section>
         <h1 className="text-4xl font-extrabold tracking-tight text-white md:text-5xl">Compliance &amp; governance</h1>
         <p className="mt-6 max-w-2xl text-lg text-muted">
-          Software governance is not a compliance checkbox—it is a continuous practice. SpecForge helps teams define policies, enforce checks, and keep records that stand up to scrutiny.
+          Software governance is not a compliance checkbox—it is a continuous practice. SpecGetter helps teams define policies, enforce checks, and keep records that stand up to scrutiny.
         </p>
       </section>
 

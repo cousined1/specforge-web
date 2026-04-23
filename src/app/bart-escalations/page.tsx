@@ -1,4 +1,4 @@
-﻿import BARTPreview from '@/components/bart/BARTPreview';
+import BARTPreview from '@/components/bart/BARTPreview';
 
 export default function BARTEscalationsPage() {
   return (

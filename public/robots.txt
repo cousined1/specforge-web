@@ -9,4 +9,4 @@ Disallow: /bart-task-graph/
 Disallow: /bart-timeline/
 Disallow: /bart-verification/
 
-Sitemap: https://specforge.io/sitemap.xml
+Sitemap: https://SpecGetter.io/sitemap.xml

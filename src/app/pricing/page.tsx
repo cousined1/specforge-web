@@ -3,7 +3,7 @@ import PricingClient from './PricingClient';
 
 export const metadata = buildMeta({
   title: 'Pricing',
-  description: 'SpecForge pricing plans: Starter, Team, and Enterprise. Transparent billing. Monthly or annual options.',
+  description: 'SpecGetter pricing plans: Starter, Team, and Enterprise. Transparent billing. Monthly or annual options.',
   canonical: '/pricing/',
 });
 

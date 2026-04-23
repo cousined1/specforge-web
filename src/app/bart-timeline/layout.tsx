@@ -2,7 +2,7 @@ import { buildMeta } from '@/components/seo/PageMeta';
 
 export const metadata = buildMeta({
   title: 'BART timeline (preview)',
-  description: 'Preview of the SpecForge BART execution timeline. Not yet available.',
+  description: 'Preview of the SpecGetter BART execution timeline. Not yet available.',
   canonical: '/bart-timeline/',
   noindex: true,
 });
