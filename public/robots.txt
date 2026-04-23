@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+Disallow: /dashboard/
+Disallow: /login/
+Disallow: /signup/
+Disallow: /bart-control/
+Disallow: /bart-escalations/
+Disallow: /bart-task-graph/
+Disallow: /bart-timeline/
+Disallow: /bart-verification/
+
+Sitemap: https://specforge.io/sitemap.xml
