@@ -7,7 +7,6 @@ import { company } from '@/config/site';
 
 const productLinks = [
   { label: 'Platform', href: '/product/' },
-  { label: 'Pricing', href: '/pricing/' },
 ];
 
 const solutionLinks = [
@@ -34,6 +33,9 @@ export default function Navbar() {
 
         <div className="hidden items-center gap-8 md:flex">
           <NavSection title="Product" links={productLinks} />
+          <Link href="/pricing/" className="text-sm font-medium text-accent hover:text-white">
+            Pricing
+          </Link>
           <NavSection title="Solutions" links={solutionLinks} />
           <NavSection title="Learn" links={explainerLinks} />
           <Link href="/contact/" className="text-sm font-medium text-accent hover:text-white">
@@ -68,6 +70,9 @@ export default function Navbar() {
       {open && (
         <div id="mobile-menu" className="border-t border-surface bg-background px-4 pb-6 md:hidden">
           <MobileSection title="Product" links={productLinks} onClick={() => setOpen(false)} />
+          <Link href="/pricing/" className="block py-2 text-sm text-accent" onClick={() => setOpen(false)}>
+            Pricing
+          </Link>
           <MobileSection title="Solutions" links={solutionLinks} onClick={() => setOpen(false)} />
           <MobileSection title="Learn" links={explainerLinks} onClick={() => setOpen(false)} />
           <Link href="/contact/" className="block py-2 text-sm text-accent" onClick={() => setOpen(false)}>
