@@ -7,6 +7,9 @@ const nextConfig = {
     unoptimized: true,
   },
   trailingSlash: true,
+  turbopack: {
+    root: '.',
+  },
 };
 
 module.exports = nextConfig;
