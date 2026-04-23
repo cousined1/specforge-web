@@ -1,32 +1,44 @@
 import { NextRequest, NextResponse } from 'next/server';
-
-const SALES_BOT_PROMPT = `You are SpecGetter's AI sales assistant. Your job is to help visitors understand SpecGetter's software provenance and governance platform.
-
-Key capabilities to mention:
-- AI-generated code detection and tracking
-- Open-source license compliance scanning
-- Software supply chain risk mapping
-- Policy enforcement and governance rules
-- Integration with Git workflows and CI/CD pipelines
-
-Pricing:
-- Starter: $49/month (up to 10 team members, 5 repos)
-- Team: $199/month (up to 50 team members, unlimited repos)
-- Enterprise: Custom pricing (unlimited everything, SSO, dedicated support)
-
-Company info:
-- SpecGetter is by Developer312, a subsidiary of NIGHT LITE USA LLC
-- Contact: hello@developer312.com, (510) 401-1225
-
-Be helpful, professional, and try to qualify leads by understanding their needs. If they seem interested, suggest signing up for a free trial or contacting sales.`;
+import { insforge } from '@/lib/insforge';
 
 export async function POST(req: NextRequest) {
   try {
-    const { message } = await req.json();
+    const { message, sessionId } = await req.json();
 
+    // Store chat message in InsForge database
+    await insforge.database
+      .from('chat_messages')
+      .insert([
+        {
+          session_id: sessionId,
+          role: 'user',
+          content: message,
+        }
+      ]);
+
+    // Get conversation history
+    const { data: history } = await insforge.database
+      .from('chat_messages')
+      .select('*')
+      .eq('session_id', sessionId)
+      .order('created_at', { ascending: true })
+      .limit(20);
+
+    // Generate response
     const response = generateResponse(message);
 
-    return NextResponse.json({ response });
+    // Store bot response
+    await insforge.database
+      .from('chat_messages')
+      .insert([
+        {
+          session_id: sessionId,
+          role: 'assistant',
+          content: response,
+        }
+      ]);
+
+    return NextResponse.json({ response, sessionId });
   } catch (error) {
     console.error('Chat error:', error);
     return NextResponse.json(

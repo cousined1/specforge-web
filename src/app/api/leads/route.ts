@@ -1,4 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server';
+import { insforge } from '@/lib/insforge';
 
 export async function POST(req: NextRequest) {
   try {
@@ -11,10 +12,28 @@ export async function POST(req: NextRequest) {
       );
     }
 
-    // Store lead in memory for now - can be connected to DB later
-    console.log('Lead captured:', { email, name, company, interest, source: 'chatbot' });
+    // Store lead in InsForge database
+    const { data, error } = await insforge.database
+      .from('leads')
+      .insert([
+        {
+          email,
+          name,
+          company,
+          interest,
+          source: 'chatbot',
+        }
+      ]);
 
-    return NextResponse.json({ success: true, message: 'Lead captured' });
+    if (error) {
+      console.error('Lead creation error:', error);
+      return NextResponse.json(
+        { error: 'Failed to create lead' },
+        { status: 500 }
+      );
+    }
+
+    return NextResponse.json({ success: true, lead: data });
   } catch (error) {
     console.error('Lead creation error:', error);
     return NextResponse.json(
