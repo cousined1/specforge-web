@@ -5,4 +5,4 @@ cmds = ["npm run build"]
 nixPkgs = ['nodejs_20']
 
 [start]
-cmd = "node .next/standalone/server.js"
+cmd = "next start"
