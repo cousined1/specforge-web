@@ -7,6 +7,7 @@ import JsonLd from '@/components/seo/JsonLd';
 import { company, metaDefaults } from '@/config/site';
 import { CookieConsentProvider } from '@/contexts/CookieConsentContext';
 import CookieConsentWrapper from '@/components/cookie-consent/CookieConsentWrapper';
+import ChatWidget from '@/components/chatbot/ChatWidget';
 
 const inter = Inter({ subsets: ['latin'], variable: '--font-inter' });
 
@@ -69,6 +70,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <main className="flex-1">{children}</main>
           <Footer />
           <CookieConsentWrapper />
+          <ChatWidget />
         </CookieConsentProvider>
       </body>
     </html>

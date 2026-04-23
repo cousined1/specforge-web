@@ -1,0 +1,30 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+model ChatMessage {
+  id        String   @id @default(uuid())
+  sessionId String   @map("session_id")
+  role      String   // "user" or "assistant"
+  content   String
+  createdAt DateTime @default(now()) @map("created_at")
+
+  @@index([sessionId])
+  @@map("chat_messages")
+}
+
+model Lead {
+  id        String   @id @default(uuid())
+  email     String
+  name      String?
+  company   String?
+  interest  String?
+  source    String   @default("chatbot")
+  createdAt DateTime @default(now()) @map("created_at")
+
+  @@map("leads")
+}
